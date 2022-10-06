@@ -1,0 +1,51 @@
+.box-1{
+    display: flex;
+    justify-content: center;
+}
+.box-1 img{
+    object-fit: cover;
+}
+.About-title{
+    margin: 6vw 0 3vw 6vw;
+}
+.nice-meet{
+    color:black;
+    font-weight: 700;
+    line-height: 135%;
+    letter-spacing: -0.02em;
+}
+.name-about{
+    font-size:2rem;
+    font-weight: 700;
+    line-height: 125%;
+}
+.skill-btn{
+    font-size:1rem;
+}
+.skills-about{
+    display:flex;
+    width: 100%;
+    margin-top: 3vw;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.row{
+    flex-wrap: wrap;
+}
+.row li{
+    margin-bottom:10px;
+}
+.profile-img{
+    border-radius: 10px;
+}
+@media  screen and (max-width:525px){
+    .About-title,.about-para{
+        margin-left:3vw;
+    }
+}
+@media screen and (max-width:768px) {
+    .profile-img{
+        width:360px;
+        height:460px;
+    }
+}
